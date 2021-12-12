@@ -12,14 +12,14 @@ metadata:
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app2'
   links:
+    - url: http://tanzu-java-web-app.default.jklassen-pstar-dev.calatrava.vmware.com
+      title: Website Address
     - url: https://docs.google.com/document/d/1HZQiV_VUkmVzjh1CaGcf4DhAXLeFIUeaoUXrARWlgGI/edit
       icon: docs
       title: Plugin Guide
     - url: https://vmware.slack.com/archives/C028W549JHX
       icon: chat
       title: Slack Channel
-    - url: http://tanzu-java-web-app.default.jklassen-pstar-dev.calatrava.vmware.com
-      title: Website
 spec:
   type: service
   lifecycle: experimental
