@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: fortune
+  description: Fortune App
+  tags:
+    - app-accelerator
+    - java
+    - spring
+    - web
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=fortune'
+  links:
+    - url: http://tanzu-java-web-app.default.jklassen-pstar-dev.calatrava.vmware.com
+      title: Website Address
+    - url: https://docs.google.com/document/d/1HZQiV_VUkmVzjh1CaGcf4DhAXLeFIUeaoUXrARWlgGI/edit
+      icon: docs
+      title: Plugin Guide
+    - url: https://vmware.slack.com/archives/C028W549JHX
+      icon: chat
+      title: Slack Channel
+spec:
+  type: service
+  lifecycle: experimental
+  owner: dream-team-AZ
